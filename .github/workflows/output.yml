@@ -1,5 +1,8 @@
 name : Output Information
-on : workflow_dispatch
+on : 
+   pull_request :
+    types :
+        - closed
 jobs :
     githubinfo :
         runs-on : ubuntu-latest
