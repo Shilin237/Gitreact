@@ -4,7 +4,7 @@ on :
     types :
         - closed
 jobs :
-    githubinfo :
+    githubinfos :
         runs-on : ubuntu-latest
         steps :
             - name : Output Github Context
